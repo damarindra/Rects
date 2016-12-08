@@ -1,0 +1,506 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>RECTS - Documentation</title>
+	
+	<meta name="description" content="This is documentation for reskining Rects from template you've been purchased.">
+	<meta name="author" content="Damar Indra">
+	<meta name="copyright" content="Damar Indra">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-08-18T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.png);}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-rects">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#rects" title="RECTS">RECTS</a></li>
+			<li><a href="#leaderboard_and_achivements" title="Leaderboard and Achivements">Leaderboard and Achivements</a>
+				<ul>
+					<li><a href="#leaderboard_and_achivements_how_to_fill_my_id_keys">How to fill my ID keys?</a>
+					<li><a href="#leaderboard_and_achivements_when_leaderboard_and_achievement_ui_show">When Leaderboard and Achievement UI show?</a>
+				</ul>
+			</li>
+			<li><a href="#unity_ads_video_reward" title="Unity Ads (Video Reward)">Unity Ads (Video Reward)</a>
+				<ul>
+					<li><a href="#unity_ads_video_reward_method_1_easy_">method 1 (easy)</a>
+					<li><a href="#unity_ads_video_reward_method_2_easy_too_">method 2 (easy too)</a>
+					<li><a href="#unity_ads_video_reward_how_it_works_on_game">How it works on game?</a>
+				</ul>
+			</li>
+			<li><a href="#cloud_save" title="Cloud Save">Cloud Save</a></li>
+			<li><a href="#facebook_share" title="Facebook Share">Facebook Share</a></li>
+			<li><a href="#admob" title="Admob">Admob</a>
+				<ul>
+					<li><a href="#admob_interstitial">Interstitial</a>
+				</ul>
+			</li>
+			<li><a href="#theme" title="Theme">Theme</a>
+				<ul>
+					<li><a href="#theme_how_to_add_more_color_theme">How to add more color theme?</a>
+					<li><a href="#theme_how_to_add_more_sprite_theme">How to add more sprite theme?</a>
+				</ul>
+			</li>
+			<li><a href="#change_sound" title="Change Sound">Change Sound</a>
+				<ul>
+					<li><a href="#change_sound_how_to_change_the_sound">How to change the sound</a>
+				</ul>
+			</li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Damar Indra 2015<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>RECTS</h1>
+	<h2>Documentation</h2>
+	<div id="documenter_buttons">
+		<a href="https://play.google.com/store/apps/details?id=com.cgranule.rects" class="btn btn-primary btn-large">Google Play Rects</a> 
+	</div>
+	<hr>
+	<ul>
+	<li>created: 08/9/2015</li>
+	<li>latest update: 08/18/2015</li>
+	<li>by: Damar Indra</li>
+	
+	<li>email: <a href="mailto:&#100;&#97;&#109;&#97;&#114;&#105;&#110;&#100;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#100;&#97;&#109;&#97;&#114;&#105;&#110;&#100;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thanks for your purchase, if you any question feel free to ask me, &#100;&#97;&#109;&#97;&#114;&#105;&#110;&#100;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</p>
+	</section>
+	
+	<section id="rects">
+	<div class="page-header"><h3>RECTS</h3><hr class="notop"></div>
+<h1>
+	RECTS Template</h1>
+<h2>
+	<strong>Build in Unity3D</strong></h2>
+<p>
+	Unity3D is engine that you can make game easily. if you want to know more about unity, just go to&nbsp;<a href="http://unity3d.com">http://unity3d.com</a>.</p>
+<h2>
+	Setup your game</h2>
+<p>
+	Package : go to Edit-Project Settings-Player-Other Settings</p>
+<p>
+	KeyStore : Edit-Project Settings-Publishing</p>
+<h2>
+	Feature</h2>
+<ul>
+	<li>
+		Leaderboard and Achievements Google Play. <a href="https://github.com/playgameservices/play-games-plugin-for-unity">link</a></li>
+	<li>
+		Unity Ads (Reward after watching video). <a href="http://unityads.unity3d.com">link</a></li>
+	<li>
+		Cloud Save Google Play.&nbsp;<a href="https://github.com/playgameservices/play-games-plugin-for-unity">link</a></li>
+	<li>
+		Facebook Share <a href="http://developers.facebook.com">link</a></li>
+	<li>
+		Admob&nbsp;<a href="https://github.com/googleads/googleads-mobile-plugins/tree/master/unity">here</a></li>
+	<li>
+		4 Type Game</li>
+	<li>
+		Power Ups</li>
+	<li>
+		Change Theme!</li>
+	<li>
+		Shop</li>
+	<li>
+		Easy To Reskin!</li>
+</ul>
+</section>
+<section id="leaderboard_and_achivements">
+	<div class="page-header"><h3>Leaderboard and Achivements</h3><hr class="notop"></div>
+<h1>
+	Leaderboard and Achivements</h1>
+<p>
+	Leaderboard and Achievement using Google Play Games Services, for more information, you can visit <a href="http://github.com/playgameservices/play-games-plugin-for-unity">here</a></p>
+<h2>
+	ID Keys</h2>
+<p>
+	Leaderboard and Achievement using ID keys for accessing your leaderboard and achievements. How to get it, if you have an account Google Play Publish Account, just create it. For more information click <a href="https://developers.google.com/games/services/android/quickstart">here</a></p>
+<h4 id="leaderboard_and_achivements_how_to_fill_my_id_keys">How to fill my ID keys?</h4>
+<ol>
+	<li>
+		Open Assets/Resources/Scene/Loader.unity</li>
+	<li>
+		On hierarchy, you can see KeyIds, click it and see on Inspector, you will get</li>
+</ol>
+<p style="margin-left: 40px;">
+	<img alt="" src="http://gdriv.es/rectsimg/KeyId.JPG"></p>
+<ol start="3">
+	<li>
+		<p>
+			Fill it with your ID key.</p>
+	</li>
+	<li>
+		<p>
+			Or if you want to change the leaderboard, just delete the all Key in Script KeyIds.cs and flushing the entire code which implements the Key. And now Create the Leaderboard and Achievements.</p>
+	</li>
+</ol>
+<h4 id="leaderboard_and_achivements_when_leaderboard_and_achievement_ui_show">When Leaderboard and Achievement UI show?</h4>
+<p>
+	You can see on hierarchy Canvas-Mainmenu Layer-Line-Achivement or Leaderboard. click and see at Inspector, on there you can see the implementation button code, see at Button (Script), and there OnClick function, Double Click Canvas.cs and on there you can see how Leaderboard or Achievements Show, for more information&nbsp;<a href="http://github.com/playgameservices/play-games-plugin-for-unity">here</a>.</p>
+</section>
+<section id="unity_ads_video_reward">
+	<div class="page-header"><h3>Unity Ads (Video Reward)</h3><hr class="notop"></div>
+<h1>
+	Unity Ads (Video Reward)</h1>
+<p>
+	Unity Ads is support for Video Ads, and support for after watching player get rewards! Wow. Did you know Crossy Road? yes!, Crossy Road using Unity Ads for monetizing. If you want to know about Unity Ads go&nbsp;<a href="http://unityads.unity3d.com">link</a></p>
+<h2>
+	Ready to Go?</h2>
+<p>
+	First, you must change the ID Key with your ID Key</p>
+<h4 id="unity_ads_video_reward_method_1_easy_">method 1 (easy)</h4>
+<ol>
+	<li>
+		Okay, UnityAds using Key Id, just create on <a href="http://unityads.unity3d.com">here</a>, if you dont have account, create it, its free and then create the ID key.</li>
+	<li>
+		Open Assets/Resources/Scripts/Splash.cs.</li>
+	<li>
+		Go to method Awake() and see at (<strong>Important : In New Version, I&#39;ve move it to method Start())</strong></li>
+</ol>
+<p>
+	<img alt="" src="http://gdriv.es/rectsimg/SplashAwake.JPG"></p>
+<ol start="4">
+	<li>
+		Change the ID with your ID. Finish!</li>
+</ol>
+<h4 id="unity_ads_video_reward_method_2_easy_too_">method 2 (easy too)</h4>
+<ol start="1">
+	<li>
+		you can fill the Id at KeyIds Prefabs (Found at scene Loader.unity)</li>
+	<li>
+		Open Assets/Resources/Scripts/Splash.cs.</li>
+	<li>
+		Go to method Awake() and see at (see above)</li>
+	<li>
+		Then change the ID with calling KeyIds.instance.unityAdsKey (Advertisment.Initialize(KeyIds.instance.unityAdsKey))</li>
+	<li>
+		Done!</li>
+</ol>
+<h4 id="unity_ads_video_reward_how_it_works_on_game">How it works on game?</h4>
+<ol>
+	<li>
+		Open&nbsp;Assets/Resources/Scripts/UICanvas.cs</li>
+	<li>
+		See method Update(), and go to and see you can see how UnityAds works.</li>
+</ol>
+<p>
+	<img alt="" src="http://gdriv.es/rectsimg/UnityAds.JPG"></p>
+<ol start="3">
+	<li>
+		Go to method RandomRewardAds(), for sets the rewards, get or not, and how many rects I can get?</li>
+</ol>
+<p>
+	<img alt="" src="http://gdriv.es/rectsimg/RandomReward.JPG"></p>
+</section>
+<section id="cloud_save">
+	<div class="page-header"><h3>Cloud Save</h3><hr class="notop"></div>
+<h1>
+	Cloud Save (Google Play Games Services)</h1>
+<p>
+	On this template, We use Google Play Game Services Cloud Save. its easy to implements, if you want more information, you can visit&nbsp;<a href="http://github.com/playgameservices/play-games-plugin-for-unity">here</a>.</p>
+<h2>
+	How to save on cloud?</h2>
+<ol>
+	<li>
+		Go to&nbsp;Assets/Resources/Scripts/Utils/GameProgress.cs</li>
+	<li>
+		First you must know how to save on local disk. See method SaveToDisk(), on there you can see PlayerPrefs.SetString(PlayerPrefsKey, ToString());, this line code is use for saving to Disk.</li>
+	<li>
+		Then go to method ToString().</li>
+</ol>
+<p>
+	<img alt="" src="http://gdriv.es/rectsimg/ToString.JPG"></p>
+<div class="alert alert-info">
+	If you want to change the save data, dont forget to change how to read the save data (FromString() method)</div>
+<ol start="4">
+	<li>
+		then open the&nbsp;Assets/Resources/Scripts/Services/GPGSController.cs, and go to</li>
+</ol>
+<p>
+	<img alt="" src="http://gdriv.es/rectsimg/AutoSave.JPG"></p>
+<ol start="5">
+	<li>
+		if you want to save game data to local or Cloud, call this method</li>
+</ol>
+<h2>
+	How to Load From Cloud?</h2>
+<ol>
+	<li>
+		If you not edit how to save data on method ToString() you only call method LoadFromCloud on GPGSController.cs, the implementation is on method LoadGameSavedFromCloud() in script UICanvas.cs and the button is on hierarchy Canvas-Option-opt-Cloud</li>
+	<li>
+		if you edit your save data, you must update FromString() method.</li>
+</ol>
+</section>
+<section id="facebook_share">
+	<div class="page-header"><h3>Facebook Share</h3><hr class="notop"></div>
+<h1>
+	Facebook Share</h1>
+<p>
+	On this template, we use Facebook SDK, you can get more information and download it from <a href="http://developers.facebook.com">here</a>.</p>
+<h2>
+	Setup</h2>
+<ol>
+	<li>
+		You must following the instruction on <a href="http://developers.facebook.com">here</a>.</li>
+	<li>
+		After complete configuring the App, you can open unity again, and open Facebook-Edit Settings</li>
+	<li>
+		Fill the AppName and AppID (got after create App from developer.facebook.com)</li>
+</ol>
+<h2>
+	Implemetation</h2>
+<ol>
+	<li>
+		Open Assets/Resources/Script/Services/FacebookController.cs</li>
+	<li>
+		if you want to edit share option, go to method ShareScore and edit parameter FB.Feed(.....)</li>
+</ol>
+<div class="alert alert-info">
+	See Documentation Facebook SDK for more information</div>
+</section>
+<section id="admob">
+	<div class="page-header"><h3>Admob</h3><hr class="notop"></div>
+<h1>
+	Admob</h1>
+<h3>
+	Banner</h3>
+<p>
+	In template I&#39;m not showing the banner because I&#39;m very dislike with banner, hehe. But you can add the banner. To add banner admob, is easy like fliping your hand. :D. here you go</p>
+<ol>
+	<li>
+		Add the banner key at KeyIds. (Open Loader.unity, see at hierarchy)</li>
+	<li>
+		then, add one line code at where you want to show the ads.</li>
+	<li>
+		ex: I want show it at Mainmenu, then I open script UICanvas.cs. Go to method Start and add one line code, see</li>
+</ol>
+<pre class="prettyprint lang-plain linenums">
+<span style="line-height: 19px;">AdmobController.Instance.ShowBanner();</span></pre>
+<ol start="4">
+	<li>
+		Done, you will see the banner</li>
+	<li>
+		One more, if you want to hide the banner, just call</li>
+</ol>
+<pre class="prettyprint lang-plain linenums">
+AdmobController.Instance.HideBanner();</pre>
+<div class="alert alert-info">
+	As Default, Banner will show at gameplay and shop</div>
+<h4 id="admob_interstitial">Interstitial</h4>
+<p>
+	Okay, Interstitial is the one type ads what I like hehe. In template, I&#39;ve been implements the instertitial, so you can follow this step</p>
+<ol>
+	<li>
+		Change the Interstitial key at KeyIds. (Open Loader.unity, see at hierarchy)</li>
+	<li>
+		Open GameManager.cs (Script)</li>
+	<li>
+		Go to method GameOver(), you will see</li>
+</ol>
+<pre class="prettyprint lang-plain linenums">
+if (interstitialCounter &gt;= 3)
+    AdmobController.Instance.ShowInterstitial();</pre>
+<ol start="3">
+	<li>
+		Yeay, that is just call&nbsp;<span style="line-height: 19px;">AdmobController.Instance.ShowInterstitial(); to show the interstitial</span></li>
+	<li>
+		<span style="line-height: 19px;">Done. :D</span></li>
+</ol>
+<div class="alert alert-info">
+	For more information, you can visit <a href="https://github.com/googleads/googleads-mobile-plugins/tree/master/unity">here</a></div>
+</section>
+<section id="theme">
+	<div class="page-header"><h3>Theme</h3><hr class="notop"></div>
+<h1>
+	Theme</h1>
+<h2>
+	Color Based</h2>
+<p>
+	Theme with color based is just one white rectangle with color patched. We do this because we need to freeing our memory on android.</p>
+<h4 id="theme_how_to_add_more_color_theme">How to add more color theme?</h4>
+<ol>
+	<li>
+		Go to loader scene. Assets/Resources/Scene/Loader.unity open it</li>
+	<li>
+		See on hierarchy, you can find GameManager. Click it</li>
+	<li>
+		see on Inspector, you can find Color Rect Array.</li>
+	<li>
+		if you want to add more theme, just change the array size.</li>
+	<li>
+		Then new Element will appear, Expand it</li>
+	<li>
+		You will see M Color, set the array size and choose the color. We recommend 6 array.</li>
+	<li>
+		Finnished, you have been add the color theme&nbsp;<img alt="wink" height="20" src="assets/images/image_2.gif" title="wink" width="20"></li>
+	<li>
+		Ouh one more, open script GameProgress.cs, go to constructor and add one / more line code (depends on how many you add theme). add this code</li>
+</ol>
+<pre class="prettyprint lang-plain linenums" style="margin-left: 40px;">
+themeColorOpened.Add(true);</pre>
+<ol start="9">
+	<li>
+		parameter bool is for theme is openned or not? if not you must set the price to open it. See below to set price</li>
+</ol>
+<h2>
+	Sprite Based</h2>
+<p>
+	Theme with sprite is many prefabs with sprite renderer.</p>
+<h4 id="theme_how_to_add_more_sprite_theme">How to add more sprite theme?</h4>
+<ol>
+	<li>
+		Open script ShapeCreator, Assets/Resources/Script/ShapeCreator.cs</li>
+	<li>
+		Then, you will see array variable MultidimensionGameObject[] gameobjectrRectangleArray. if you want add more theme, just change the size array. ex: I want 3 Sprite Based Theme, then I must change the size of array to 3 and add call the constructor multidimensionGameObject inside the array</li>
+</ol>
+<pre class="prettyprint lang-plain linenums" style="margin-left: 40px;">
+public MultidimensionGameObject[] gameobjectRectangleArray = new MultidimensionGameObject[3] { new MultidimensionGameObject(6), new MultidimensionGameObject(6), new MultidimensionGameObject(6) };</pre>
+<ol start="3">
+	<li>
+		Then, on InitializeSprite() method, enter the prefabs to array that we has been create. enter the path of prefabs, start on Resources folder. ex: Resources.Load(&quot;Prefabs/Theme/Folder/SpriteName&quot;, typeof(GameObject)) as GameObject,</li>
+</ol>
+<ol start="4">
+	<li>
+		Ouh you haven&#39;t create the prefabs? just go to unity again and see at Assets/Resources/Prefabs/Theme, just copy one folder on entire the folder. ex: copy folder Animal.</li>
+	<li>
+		Then, change the sprite in folder you have been copied. just click the prefabs and see the inspector, you can see component SpriteRenderer. change the sprite to your own sprite.</li>
+	<li>
+		Ouh one more, open script GameProgress.cs, go to constructor and add one / more line code (depends on how many you add theme). add this code</li>
+	<li>
+		parameter bool is for theme is openned or not? if not you must set the price to open it. See below to set price</li>
+</ol>
+<h2>
+	Add the menu change Theme and set the price</h2>
+<ol>
+	<li>
+		Open main.unity</li>
+	<li>
+		see at hierarchy, go to Canvas-Shop Layer-TextThemeShopcc-ScrollArea-Panel, just copy the entire of Panel, ex: copy Default, with ctrl+d</li>
+	<li>
+		Then, edit the visual with your own theme</li>
+	<li>
+		then, you&#39;ve see button Buy, click it and see at Inspector.</li>
+	<li>
+		scroll down and you&#39;ll see On Click() method and 2 function inside OnClick()</li>
+	<li>
+		The first one is type of theme, ex: if Color, then set in by click it -&gt; UICanvas -&gt; ChooseColorTheme, if Sprite, choose UICanvas-&gt;ChooseSpriteBasedTheme.</li>
+	<li>
+		Then enter the parameter with index of theme (see bellow of the function). Be carefull to enter the index, index must available with the array of theme (step before)</li>
+	<li>
+		then see bellow, you can find UICanvas.ChooseBackgroundTheme, then enter the parameter with index of array background. 0 for white, and 1 for black.</li>
+	<li>
+		How about our save game data? is data knowing our new Theme? of course not! okay, lets fix this. Just open Script GameProgress.cs and see at constructor, add one or more line code (depend on theme addition)</li>
+</ol>
+<pre class="prettyprint lang-plain linenums">
+themeSpriteOpened.Add(false); //Theme Based//parameter boolean for is theme openned or close.</pre>
+<pre class="prettyprint lang-plain linenums">
+themeColorOpened.Add(false); //Color Based//parameter boolean for is theme openned or close.</pre>
+<ol start="10">
+	<li>
+		Then how to set the price?</li>
+	<li>
+		Open UICanvas.cs (Script)</li>
+	<li>
+		Go to method start, add one or more line code (depend on adding theme)</li>
+</ol>
+<pre class="prettyprint lang-plain linenums">
+goSpriteThemeButton[index].GetComponentInChildren&lt;Text&gt;().text = &quot;Price&quot;;  //For Sprite Based</pre>
+<pre class="prettyprint lang-plain linenums">
+goColorThemeButton[index].GetComponentInChildren&lt;Text&gt;().text = &quot;Price&quot;;   //For Color Based</pre>
+<ol start="13">
+	<li>
+		Then go back to unity, click Canvas, then scroll down. you now can see Go Sprite Theme Button or Go Color Theme Button. Drag the button buy (inside your theme) into that variable. If your theme is Color, drag it in Go Color Theme Button, otherwise.</li>
+	<li>
+		Finish</li>
+</ol>
+<div class="alert alert-info">
+	We recommend to delete save game after adding or removing theme.</div>
+<div class="alert alert-info">
+	We dont recommend to removing theme. Just change it. If you removing theme, just perfome to Delete Save Game. In unity, check the Delete Save Game at scene Loader, Canvas. In Android, you must delete the Data.</div>
+<div class="alert alert-info">
+	Background color can be found at Loader.unity and click on GameManager.</div>
+</section>
+<section id="change_sound">
+	<div class="page-header"><h3>Change Sound</h3><hr class="notop"></div>
+<p>
+	The sound included in zip is license CC-0 means, you can use it.</p>
+<h4 id="change_sound_how_to_change_the_sound">How to change the sound</h4>
+<ol>
+	<li>
+		Open Main.unity</li>
+	<li>
+		Click Audio Source in Hierarchy.</li>
+	<li>
+		then, see at Inspector, scroll down, you can find Sound Manager (Script)</li>
+	<li>
+		Change the Clip sound, Srink Rect Sound and Button Sound.</li>
+</ol>
+</section>
+
+	</div>
+</body>
+</html>
